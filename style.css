@@ -1,0 +1,57 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+.clc{
+     margin-top: 10px;
+}
+
+.container{
+     margin-top: 10px;
+     width: 320px;
+     margin: 0 auto;
+     padding: 20px;
+     background-color: black;
+     border-radius: 5px;
+}
+
+/* .container_wrapper{
+     display: flex;
+     flex-direction: column;
+} */
+
+/* input{
+     margin: 0 auto;
+} */
+.head{
+     color: aliceblue;
+}
+.input1,
+.input2{
+     border-radius: 5px;
+     width: 280px;
+     height: 55px;
+}
+
+.result{
+     margin-top: 10px;
+     width: 280px;
+     height: 55px ;
+     background-color: green;
+     border-radius: 5px;
+     color: white;
+}
+.button{
+     margin: 0 auto;
+     margin-top: 10px;
+     display: flex;
+     column-gap: 10px;
+}
+.plus,
+.minus,
+.gun,
+.vag{
+     font-size: 20px;
+}
